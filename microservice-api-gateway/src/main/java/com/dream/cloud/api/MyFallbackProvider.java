@@ -1,4 +1,4 @@
-package com.dream.cloud;
+package com.dream.cloud.api;
 
 import com.netflix.hystrix.exception.HystrixTimeoutException;
 import org.springframework.cloud.netflix.zuul.filters.route.FallbackProvider;

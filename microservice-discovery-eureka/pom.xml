@@ -5,12 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>microservice-discovery-eureka</artifactId>
+	<groupId>com.dream.cloud.eureka</groupId>
 	<packaging>jar</packaging>
 
 	<parent>
-		<groupId>com.minbo.cloud</groupId>
-		<artifactId>spring-cloud-microservice-study</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<groupId>com.dream.cloud</groupId>
+		<artifactId>spring-cloud-microservice-learn</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<dependencies>
