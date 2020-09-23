@@ -9,7 +9,7 @@
 
 	<parent>
 		<groupId>com.dream.cloud</groupId>
-		<artifactId>spring-cloud-microservice-learn</artifactId>
+		<artifactId>spring-cloud-greenwich</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
