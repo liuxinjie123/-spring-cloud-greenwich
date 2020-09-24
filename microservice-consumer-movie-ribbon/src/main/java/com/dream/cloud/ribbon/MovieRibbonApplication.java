@@ -1,4 +1,4 @@
-package com.dream.cloud;
+package com.dream.cloud.ribbon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

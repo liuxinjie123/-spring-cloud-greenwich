@@ -1,8 +1,10 @@
 server:
    port: 8020
+
 spring:
    application:
       name: microservice-consumer-movie-feign
+
 eureka:
    client:
       serviceUrl:

@@ -1,4 +1,4 @@
-package com.dream.cloud.service;
+package com.dream.cloud.ribbon.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,5 +1,6 @@
 server:
    port: 8041
+
 management:
    endpoint:
       refresh:

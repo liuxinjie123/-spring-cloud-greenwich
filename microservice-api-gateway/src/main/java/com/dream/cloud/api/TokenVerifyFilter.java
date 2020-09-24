@@ -10,8 +10,6 @@ import com.netflix.zuul.exception.ZuulException;
 
 /**
  * Token过滤验证
- * 
- * @author Minbo
  */
 @Component
 public class TokenVerifyFilter extends ZuulFilter {

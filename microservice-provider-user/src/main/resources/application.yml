@@ -1,8 +1,10 @@
 server:
    port: 8000
+
 spring:
    application:
       name: microservice-provider-user # 项目名称尽量用小写
+
 eureka:
    # 配置开启健康检查
    client:

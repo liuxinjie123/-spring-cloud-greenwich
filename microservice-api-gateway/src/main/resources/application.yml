@@ -36,6 +36,7 @@ zuul:
       api-d:
          path: /api-d/**
          serviceId: microservice-consumer-movie-feign
+
 management:
    endpoints:
       web:

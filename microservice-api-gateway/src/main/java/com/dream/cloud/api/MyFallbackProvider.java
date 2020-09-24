@@ -16,8 +16,6 @@ import java.nio.charset.Charset;
 /**
  * 
  * 使用zuul的fallback来实现服务降级和熔断功能
- * 
- * @author Minbo
  */
 @Component
 public class MyFallbackProvider implements FallbackProvider {

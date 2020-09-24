@@ -1,5 +1,6 @@
 server:
    port: 8761 # 指定该Eureka实例的端口
+
 eureka:
    instance:
       hostname: localhost # 指定该Eureka实例的主机名
@@ -9,11 +10,10 @@ eureka:
       eviction-interval-timer-in-ms: 4000
    # 通过eureka.client.registerWithEureka:false和fetchRegistry:false，来表明自己是一个eureka server
    client:
-      registerWithEureka: false
-      fetchRegistry: false
-      serviceUrl:
+      register-with-eureka: false
+      fetch-registry: false
+      service-url:
          defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-         
 # 参考文档：http://projects.spring.io/spring-cloud/docs/1.0.3/spring-cloud.html#_standalone_mode
 # 参考文档：http://my.oschina.net/buwei/blog/618756
 # 参考文档：https://blog.csdn.net/forezp/article/details/81040925
